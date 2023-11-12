@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+/* body{
+    background-color: black;
+} */
+nav {
+    font-family: "Segeo UI", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navi ul {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.logo img {
+    height: 3.5vw;
+}
+
+.stuff {
+    font-family: "Nato Sans" ;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+}
+
+.UltraEdit {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.Writing {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    margin-left: 14vw;
+    margin-right: 14vw;
+}
+.line1{
+    text-align: center;
+}
+.line2{
+    text-align: center;
+}
+
+.Button {
+    margin-top: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button button {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 13px;
+    border-radius: 3px;
+    background-color: #66CCFF;
+    border-width: 0px;
+    line-height: 16px;
+}
+
+.bannerhead {
+    display: inline-block;
+    margin-left: 14vw;
+}
+
+.download {
+    position: relative;
+    left: 10px;
+    top: -35px;
+    font-size: 24px;
+}
+
+.version {
+    margin-left: 7px;
+    position: relative;
+    top: -35px;
+}
+
+.downloadables {
+    margin-left: 8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    margin: 5px;
+    background-color: #f9f9f9;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+small {
+    display: flex;
+    justify-content: center;
+}
+
+.downloadables ul{
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.downloadables ul li #green{
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 1.3vh 1.3vw;
+    border-radius: 4px;
+    font-family: "Nato Sans";
+    font-weight: 600;
+    color: white;
+    font-size: 1.5vh;
+    background-color: #5cb85c;
+}
+
+.downloadables ul li #blue{
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 1.3vh 1.3vw;
+    border-radius: 4px;
+    font-family: "Nato Sans";
+    font-weight: 600;
+    color: white;
+    font-size: 1.5vh;
+    background-color: #66CCFF;
+}
+.English ul li{
+    margin-top: 23px;
+}
+
+@media screen and (max-width: 800px) {
+    .downloadables{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .downloadables {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .version{
+        display: none;
+    }
+
+    .navi{
+        display: none;
+    }
+
+    .logo img{
+        height: 42px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .downloadables {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+
+    .download {
+        margin-left: 0;
+        font-size: 6vw;
+    }
+
+    .heading{
+        font-size: 7vw;
+    }
+    
+    .UltraEdit{
+        font-size: 7vw;
+    }
+
+    .Writing{
+        font-size: 5vw;
+    }
+}
